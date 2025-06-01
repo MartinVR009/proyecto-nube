@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>XYZ University</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/89cR9zW.jpg" alt="Graduation" />
+    <h1>XYZ University</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Students list</a>
+    </nav>
+  </header>
+  <main>
+    <h2>All students</h2>
+    <table id="student-table">
+      <thead>
+        <tr>
+          <th>Name</th><th>Address</th><th>City</th><th>State</th><th>Email</th><th>Phone</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button onclick="showForm()">Add a new student</button>
+    <form id="form" style="display:none;">
+      <input placeholder="Name" id="name" required />
+      <input placeholder="Address" id="direccion" required />
+      <input placeholder="City" id="ciudad" required />
+      <input placeholder="State" id="estado" required />
+      <input placeholder="Email" id="email" required />
+      <input placeholder="Phone" id="telefono" required />
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
