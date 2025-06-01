@@ -1,4 +1,4 @@
-const apiUrl = "http://<tu-ip-publica>:3000/api/estudiantes";
+const apiUrl = "http://35.175.142.63:3000/api/estudiantes";
 
 const tbody = document.querySelector("tbody");
 
